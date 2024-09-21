@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #636363, #808080);
+}
+nav {
+    background-color: rgb(42, 46, 45);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+nav li a:hover{
+    background-color: rgb(25, 27, 27);
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
